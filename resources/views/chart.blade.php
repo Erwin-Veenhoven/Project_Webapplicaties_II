@@ -11,11 +11,11 @@
 <section>
     <div class="chart">
         <div id="temperatureChart" style="width: 900px; height: 250px"></div>
-        <button class="btn"><i class="fa fa-download"></i> Download XML</button>
+        <button onclick="location.href='download/xml'" class="btn"><i class="fa fa-download"></i> Download XML</button>
     </div>
     <div class="chart">
         <div id="rainfallChart" style="width: 900px; height: 250px"></div>
-        <button class="btn"><i class="fa fa-download"></i> Download XML</button>
+        <button onclick="location.href='download/xml'" class="btn"><i class="fa fa-download"></i> Download XML</button>
     </div>
 </section>
 
