@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ChartController;
 use App\Http\Controllers\WeatherDataController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
@@ -19,6 +20,8 @@ use Illuminate\Http\Request;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/data', [ChartController::class, 'showPage']);
 
 Route::get('/login', [UserController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [UserController::class, 'login']);
