@@ -1,3 +1,7 @@
+section {
+    margin-inline: 15px;
+}
+
 .chart {
     margin-bottom: 20px;
     width: fit-content;
