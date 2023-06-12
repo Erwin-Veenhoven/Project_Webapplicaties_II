@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-color: #e5e5e5;
+}
+
+.navbar {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    background-color: white;
+    overflow: auto;
+    width: 100%;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    color: #111111;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Segoe UI', serif;
+    font-weight: bolder;
+}
+
+.navbar li a:hover {
+    background-color: #dddddd;
+}

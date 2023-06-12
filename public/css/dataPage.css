@@ -1,0 +1,22 @@
+.chart {
+    margin-bottom: 20px;
+    width: fit-content;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 110px;
+}
+
+.btn:hover {
+    background-color: RoyalBlue;
+}
