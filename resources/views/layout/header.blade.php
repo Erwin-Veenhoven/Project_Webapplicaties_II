@@ -5,7 +5,6 @@
     <nav>
         <ul class="navbar" >
             <a href="/"> <img src="{{ asset('img/logo.png') }}" alt="Ceva" id="logo"> </a>
-            <li><a href="/">Home</a></li>
             <li><a href="/data">Historical Data</a></li>
 
             {{ Auth::user() }}

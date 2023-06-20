@@ -8,7 +8,7 @@
         <div class="info">
             <div class="container left">
                 <h1>About</h1>
-                <p>We are Ceva.</p>
+                <p>CEVA Logistics has a global workforce of more than 110,000 people across 1,300 sites and more than 170 countries.</p>
             </div>
 
             <div class="container center">
