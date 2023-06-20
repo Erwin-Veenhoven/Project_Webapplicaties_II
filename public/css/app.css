@@ -3,6 +3,10 @@ body {
     background-color: #e5e5e5;
 }
 
+section {
+    margin: 1em;
+}
+
 h1 {
     font-family: 'Segoe UI', serif;
 }
@@ -28,7 +32,7 @@ p {
     color: #111111;
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.8em 1em;
     text-decoration: none;
     font-family: 'Segoe UI', serif;
     font-weight: bolder;

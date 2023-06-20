@@ -51,7 +51,6 @@
     float: left;
     width: 20%;
     height: 100%;
-    margin-top: 2.5%;
     margin-left: 2.5%;
 }
 
@@ -59,7 +58,6 @@
     float: left;
     width: 50%;
     height: 100%;
-    margin-top: 2.5%;
     margin-left: 2.5%;
 }
 
@@ -68,6 +66,5 @@
     float: right;
     width: 20%;
     height: 100%;
-    margin-top: 2.5%;
     margin-right: 2.5%;
 }
