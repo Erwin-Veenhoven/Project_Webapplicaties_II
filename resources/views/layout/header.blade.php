@@ -4,8 +4,9 @@
 <header>
     <nav>
         <ul class="navbar" >
-            <a href="/"> <img src="{{ asset('img/logo.png') }}" alt="Ceva" id="logo"> </a>
-            <li><a href="/data">Historical Data</a></li>
+            <img src="{{ asset('img/logo.png') }}" alt="Ceva" id="logo">
+            <li><a href="/">Home</a></li>
+            <li><a href="/data">Data</a></li>
 
             {{ Auth::user() }}
             @if(!Auth::user() == null)

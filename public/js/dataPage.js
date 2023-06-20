@@ -49,9 +49,13 @@ function drawChart() {
         }
     };
 
-    let tChart = new google.visualization.LineChart(document.getElementById('temperatureChart'));
+    let tChart = new google.visualization.LineChart(document.getElementById('temperature-chart'));
     tChart.draw(temperatureData, temperatureOptions);
 
-    let rChart = new google.visualization.LineChart(document.getElementById('rainfallChart'));
+    let rChart = new google.visualization.LineChart(document.getElementById('rainfall-chart'));
     rChart.draw(rainfallData, rainfallOptions);
 }
+
+window.addEventListener('resize', function() {
+    drawChart();
+});

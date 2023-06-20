@@ -13,13 +13,20 @@
 </div>
 
 <section>
-    <div class="chart">
-        <div id="temperatureChart" style="width: 900px; height: 200px"></div>
-        <button onclick="location.href='download/xml'" class="btn"><i class="fa fa-download"></i> Download XML</button>
-    </div>
-    <div class="chart">
-        <div id="rainfallChart" style="width: 900px; height: 200px"></div>
-        <button onclick="location.href='download/xml'" class="btn"><i class="fa fa-download"></i> Download XML</button>
+    <div class="container">
+        <div class="card item1"></div>
+        <div class="card item2">
+            <div id="temperature-chart" class="chart"></div>
+            <div class="btn-container">
+                <button onclick="location.href='download/xml'" class="btn"><i class="fa fa-download"></i> Download XML</button>
+            </div>
+        </div>
+        <div class="card">
+            <div id="rainfall-chart" class="chart"></div>
+            <div class="btn-container">
+                <button onclick="location.href='download/xml'" class="btn"><i class="fa fa-download"></i> Download XML</button>
+            </div>
+        </div>
     </div>
 </section>
 
