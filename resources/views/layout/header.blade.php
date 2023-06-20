@@ -4,7 +4,7 @@
 <header>
     <nav>
         <ul class="navbar" >
-            <img src="{{ asset('img/logo.png') }}" alt="Ceva" id="logo">
+            <a href="/"> <img src="{{ asset('img/logo.png') }}" alt="Ceva" id="logo"> </a>
             <li><a href="/">Home</a></li>
             <li><a href="/data">Historical Data</a></li>
 
