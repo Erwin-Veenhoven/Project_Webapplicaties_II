@@ -4,8 +4,7 @@
 <header>
     <nav>
         <ul class="navbar" >
-            <img src="{{ asset('img/logo.png') }}" alt="Ceva" id="logo">
-            <li><a href="/">Home</a></li>
+            <a href="/"><img src="{{ asset('img/logo.png') }}" alt="Ceva" id="logo"></a>
             <li><a href="/data">Data</a></li>
 
             {{ Auth::user() }}
