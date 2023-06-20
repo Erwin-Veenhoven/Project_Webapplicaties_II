@@ -8,12 +8,41 @@ p {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 2em;
+}
+
+.image {
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
 }
 
 .card {
     background-color: #010736;
-    padding: 2em;
+    padding: 1em;
     border-radius: 2em;
+    text-align: center;
+}
+
+.span-2 {
+    grid-row: auto / span 2;
+}
+
+a {
+    text-decoration: none;
+    color: #010736;
+    background-color: white;
+    font-size: 100%;
+    align-items: center;
+}
+
+.button {
+    padding: 20px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #010736;
+    float: right;
+    margin: 20px 20px;
 }
