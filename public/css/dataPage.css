@@ -1,10 +1,10 @@
-.infoBar {
+.info-bar {
     margin: 0;
     background-color: #efefef;
     padding: 10px;
 }
 
-.infoBar h1 {
+.info-bar h1 {
     margin: 0;
     font-size: 1.5em;
 }
@@ -20,6 +20,56 @@
     padding-top: 1em;
     background-color: white;
     border-radius: 1em;
+}
+
+.stn-info {
+    text-align: center;
+    height: fit-content;
+}
+
+.stn-info h1 {
+    margin-bottom: 0.2em;
+}
+
+.stn-info small {
+    color: darkgrey;
+    margin-top: 0;
+    margin-inline: 1em;
+}
+
+.temp {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-inline: auto;
+    width: 60%;
+    max-width: 15em;
+    border-radius: 50%;
+    background-color: #ffb938;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp-inner {
+    display: block;
+}
+
+.temp-inner small {
+    color: white;
+    font-family: 'Segoe UI', serif;
+    margin-top: 0;
+}
+
+.temp-inner span {
+    color: white;
+    font-family: 'Segoe UI', serif;
+    font-weight: bolder;
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+.temp-inner small {
+    display: block;
 }
 
 .chart {
@@ -39,7 +89,7 @@
     margin-left: 10%;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 760px) {
     .container {
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 65% 1fr;

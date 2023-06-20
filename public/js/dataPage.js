@@ -11,7 +11,7 @@ function drawChart() {
     ]);
 
     let temperatureOptions = {
-        title: 'Temperature',
+        title: 'Temperature, 4 weeks',
         curveType: 'function',
         legend: { position: 'bottom' },
         colors: ['#ff6e6e'],
@@ -35,7 +35,7 @@ function drawChart() {
         ['05-06-23', 3]
     ]);
     let rainfallOptions = {
-        title: 'Rainfall',
+        title: 'Rainfall, 1 week top 10',
         curveType: 'function',
         legend: { position: 'bottom' },
         colors: ['#49acff'],
@@ -56,6 +56,17 @@ function drawChart() {
     rChart.draw(rainfallData, rainfallOptions);
 }
 
+function resizeSquare() {
+    var square = document.getElementById('square');
+    var width = square.offsetWidth;
+    square.style.height = width + 'px';
+}
+
+window.addEventListener('load', function() {
+    resizeSquare();
+});
+
 window.addEventListener('resize', function() {
     drawChart();
+    resizeSquare();
 });

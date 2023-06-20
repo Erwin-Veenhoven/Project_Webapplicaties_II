@@ -8,13 +8,23 @@
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript" src="{{ asset('js/dataPage.js') }}"></script>
 
-<div class="infoBar">
-    <h1>Station 0</h1>
+<div class="info-bar">
+    <h1>Station 17</h1>
 </div>
 
 <section>
     <div class="container">
-        <div class="card item1"></div>
+        <div class="card item1 stn-info">
+            <h1>Station 17</h1>
+            <small>lat: 9.287620</small>
+            <small>long: -79.916139</small>
+            <div class="temp" id="square">
+                <div class="temp-inner">
+                    <span>25°C</span>
+                    <small>most recent</small>
+                </div>
+            </div>
+        </div>
         <div class="card item2">
             <div id="temperature-chart" class="chart"></div>
             <div class="btn-container">
