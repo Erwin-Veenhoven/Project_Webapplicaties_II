@@ -3,11 +3,11 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
     let temperatureData = google.visualization.arrayToDataTable([
         ['Time', 'Temperature'],
-        ['01:01',  25],
-        ['02:02',  22],
-        ['03:03',  28],
-        ['04:04',  31],
-        ['05:05',  27]
+        ['01:01', 25],
+        ['02:02', 22],
+        ['03:03', 28],
+        ['04:04', 31],
+        ['05:05', 27]
     ]);
 
     let temperatureOptions = {
@@ -28,11 +28,11 @@ function drawChart() {
 
     let rainfallData = google.visualization.arrayToDataTable([
         ['Time', 'Rainfall'],
-        ['01-06-23',  5],
-        ['02-06-23',  0],
-        ['03-06-23',  2],
-        ['04-06-23',  3],
-        ['05-06-23',  0]
+        ['01-06-23', 5],
+        ['02-06-23', 0],
+        ['03-06-23', 2],
+        ['04-06-23', 2],
+        ['05-06-23', 3]
     ]);
     let rainfallOptions = {
         title: 'Rainfall',
@@ -42,7 +42,11 @@ function drawChart() {
         hAxis: { title: 'Time' },
         vAxis: {
             title: 'Rainfall (mm)',
-            baselineColor: 'transparent'}
+            baselineColor: 'transparent',
+            viewWindow: {
+                min: 0
+            }
+        }
     };
 
     let tChart = new google.visualization.LineChart(document.getElementById('temperatureChart'));
