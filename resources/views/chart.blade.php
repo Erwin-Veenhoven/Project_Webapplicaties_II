@@ -8,10 +8,6 @@
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript" src="{{ asset('js/dataPage.js') }}"></script>
 
-<div class="info-bar">
-    <h1>Station 17</h1>
-</div>
-
 <section>
     <div class="container">
         <div class="card item1 stn-info">

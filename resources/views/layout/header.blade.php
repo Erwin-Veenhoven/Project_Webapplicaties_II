@@ -5,7 +5,7 @@
     <nav>
         <ul class="navbar" >
             <a href="/"><img src="{{ asset('img/logo.png') }}" alt="Ceva" id="logo"></a>
-            <li><a href="/data">Data</a></li>
+            <li><a href="/data">Weather</a></li>
 
             {{ Auth::user() }}
             @if(!Auth::user() == null)
