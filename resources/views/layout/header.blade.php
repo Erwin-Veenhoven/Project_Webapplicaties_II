@@ -6,7 +6,7 @@
         <ul class="navbar" >
             <a href="/"><img src="{{ asset('img/logo.png') }}" alt="Ceva" id="logo"></a>
             <li><a href="/weather">Weather</a></li>
-            <li><a href="/map">Station Map</a></li>
+            <li><a href="/map">Map</a></li>
 
             {{ Auth::user() }}
             @if(!Auth::user() == null)

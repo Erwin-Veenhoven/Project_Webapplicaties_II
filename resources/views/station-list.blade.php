@@ -17,7 +17,7 @@
                             <div class="card-title">
                                 <span>{{ $station->name }}</span><br>
                                 <small>lat: {{ $station->latitude }}</small>
-                                <small>long: {{ $station->longitude }}</small>
+                                <small>lon: {{ $station->longitude }}</small>
                             </div>
                             <div class="temp">
                                 <span>{{ $station->data[count($station->data)-1]->temperature }}°C</span>
@@ -39,7 +39,7 @@
                                 <div class="card-title">
                                     <span>{{ $station->name }}</span><br>
                                     <small>lat: {{ $station->latitude }}</small>
-                                    <small>long: {{ $station->longitude }}</small>
+                                    <small>lon: {{ $station->longitude }}</small>
                                 </div>
                                 <div class="temp">
                                     <span>{{ $station->data[count($station->data)-1]->rainfall }}mm</span>

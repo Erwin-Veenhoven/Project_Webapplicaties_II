@@ -78,7 +78,7 @@
         <div class="card item1 stn-info">
             <h1>{{$station->name}}</h1>
             <small>lat: {{$station->latitude}}</small>
-            <small>long: {{$station->longitude}}</small>
+            <small>lon: {{$station->longitude}}</small>
             <div class="temp square">
                 <div class="temp-inner">
                     <span>{{ $station->data[count($station->data)-1]->temperature }}°C</span>
