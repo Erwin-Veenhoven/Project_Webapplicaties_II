@@ -4,9 +4,10 @@
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="{{ asset('css/dataPage.css') }}">
+<link rel="stylesheet" href="{{ asset('css/data-page.css') }}">
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<script type="text/javascript" src="{{ asset('js/dataPage.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/data-page.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/square.js') }}"></script>
 
 <section>
     <div class="container">
@@ -14,7 +15,7 @@
             <h1>Station 17</h1>
             <small>lat: 9.287620</small>
             <small>long: -79.916139</small>
-            <div class="temp" id="square">
+            <div class="temp square">
                 <div class="temp-inner">
                     <span>25°C</span>
                     <small>most recent</small>

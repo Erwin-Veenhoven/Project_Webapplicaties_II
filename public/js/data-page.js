@@ -55,18 +55,3 @@ function drawChart() {
     let rChart = new google.visualization.LineChart(document.getElementById('rainfall-chart'));
     rChart.draw(rainfallData, rainfallOptions);
 }
-
-function resizeSquare() {
-    var square = document.getElementById('square');
-    var width = square.offsetWidth;
-    square.style.height = width + 'px';
-}
-
-window.addEventListener('load', function() {
-    resizeSquare();
-});
-
-window.addEventListener('resize', function() {
-    drawChart();
-    resizeSquare();
-});
