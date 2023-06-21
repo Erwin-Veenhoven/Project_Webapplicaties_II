@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\ChartController;
 use App\Http\Controllers\DownloadController;
-use App\Http\Controllers\WeatherDataController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
@@ -21,7 +20,9 @@ use Illuminate\Http\Request;
 Route::get('/', function () {
     return view('home');
 });
-
+Route::get('/maps', function () {
+    return view('maps');
+});
 Route::get('/data', [ChartController::class, 'showPage']);
 
 Route::get('/download/xml', [DownloadController::class, 'downloadXml']);
@@ -31,4 +32,5 @@ Route::post('/login', [UserController::class, 'login']);
 Route::get('/register', [UserController::class, 'showRegistrationForm'])->name('register');
 Route::post('/register', [UserController::class, 'register']);
 Route::get('/logout', [UserController::class, 'logout'])->name('logout');
+
 
