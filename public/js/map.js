@@ -30,7 +30,7 @@ async function initMap() {
             title: stations[station].name,
         });
         marker.addListener("click", () => {
-            window.location.href = "/station/" + stations[station].name;
+            window.location.href = "/data/" + stations[station].name;
         });
     }
 }

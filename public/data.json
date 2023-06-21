@@ -85,26 +85,7 @@
       "latitude": 9.287620,
       "longitude": -79.916139,
       "data": [
-        { "timestamp": "2023-06-01", "rainfall": 5 },
-        { "timestamp": "2023-06-02", "rainfall": 8 },
-        { "timestamp": "2023-06-03", "rainfall": 12 },
-        { "timestamp": "2023-06-04", "rainfall": 12 },
-        { "timestamp": "2023-06-05", "rainfall": 4 },
-        { "timestamp": "2023-06-06", "rainfall": 0 },
-        { "timestamp": "2023-06-07", "rainfall": 0 },
-        { "timestamp": "2023-06-08", "rainfall": 0 },
-        { "timestamp": "2023-06-09", "rainfall": 7 },
-        { "timestamp": "2023-06-10", "rainfall": 25 },
-        { "timestamp": "2023-06-11", "rainfall": 30 },
-        { "timestamp": "2023-06-12", "rainfall": 1 },
-        { "timestamp": "2023-06-13", "rainfall": 5 },
-        { "timestamp": "2023-06-14", "rainfall": 0 },
-        { "timestamp": "2023-06-15", "rainfall": 0 },
-        { "timestamp": "2023-06-16", "rainfall": 6 },
-        { "timestamp": "2023-06-17", "rainfall": 9 },
-        { "timestamp": "2023-06-18", "rainfall": 0 },
-        { "timestamp": "2023-06-19", "rainfall": 0 },
-        { "timestamp": "2023-06-20", "rainfall": 0 }
+        { "timestamp": "2023-06-11", "rainfall": 30 }
 
 
       ]},{
@@ -112,26 +93,7 @@
       "latitude": 9.117173,
      "longitude": -79.713215,
       "data": [
-        { "timestamp": "2023-06-01", "rainfall": 0 },
-        { "timestamp": "2023-06-02", "rainfall": 0 },
-        { "timestamp": "2023-06-03", "rainfall": 0 },
-        { "timestamp": "2023-06-04", "rainfall": 6 },
-        { "timestamp": "2023-06-05", "rainfall": 0 },
-        { "timestamp": "2023-06-06", "rainfall": 12 },
-        { "timestamp": "2023-06-07", "rainfall": 18 },
-        { "timestamp": "2023-06-08", "rainfall": 2 },
-        { "timestamp": "2023-06-09", "rainfall": 0 },
-        { "timestamp": "2023-06-10", "rainfall": 0 },
-        { "timestamp": "2023-06-11", "rainfall": 0 },
-        { "timestamp": "2023-06-12", "rainfall": 0 },
-        { "timestamp": "2023-06-13", "rainfall": 15 },
-        { "timestamp": "2023-06-14", "rainfall": 18 },
-        { "timestamp": "2023-06-15", "rainfall": 12 },
-        { "timestamp": "2023-06-16", "rainfall": 6 },
-        { "timestamp": "2023-06-17", "rainfall": 0 },
-        { "timestamp": "2023-06-18", "rainfall": 0 },
-        { "timestamp": "2023-06-19", "rainfall": 0 },
-        { "timestamp": "2023-06-20", "rainfall": 0 }
+        { "timestamp": "2023-06-14", "rainfall": 18 }
       ]
     },
     {
@@ -140,26 +102,7 @@
       "longitude": -79.579663,
 
       "data": [
-        { "timestamp": "2023-06-01", "rainfall": 0 },
-        { "timestamp": "2023-06-02", "rainfall": 0 },
-        { "timestamp": "2023-06-03", "rainfall": 5 },
-        { "timestamp": "2023-06-04", "rainfall": 8 },
-        { "timestamp": "2023-06-05", "rainfall": 12 },
-        { "timestamp": "2023-06-06", "rainfall": 15 },
-        { "timestamp": "2023-06-07", "rainfall": 1 },
-        { "timestamp": "2023-06-08", "rainfall": 2 },
-        { "timestamp": "2023-06-09", "rainfall": 3 },
-        { "timestamp": "2023-06-10", "rainfall": 0 },
-        { "timestamp": "2023-06-11", "rainfall": 0 },
-        { "timestamp": "2023-06-12", "rainfall": 6 },
-        { "timestamp": "2023-06-13", "rainfall": 4 },
-        { "timestamp": "2023-06-14", "rainfall": 21 },
-        { "timestamp": "2023-06-15", "rainfall": 35 },
-        { "timestamp": "2023-06-16", "rainfall": 25 },
-        { "timestamp": "2023-06-17", "rainfall": 14 },
-        { "timestamp": "2023-06-18", "rainfall": 2 },
-        { "timestamp": "2023-06-19", "rainfall": 4 },
-        { "timestamp": "2023-06-20", "rainfall": 0 }
+        { "timestamp": "2023-06-15", "rainfall": 35 }
       ]
     },
     {

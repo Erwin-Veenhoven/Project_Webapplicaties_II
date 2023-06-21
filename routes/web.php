@@ -23,6 +23,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('map', function () {
+    return view('maps');
+});
+
 Route::get('/weather', [StationListController::class, 'showPage']);
 Route::get('/data/{name}', [ChartController::class, 'showPage']);
 

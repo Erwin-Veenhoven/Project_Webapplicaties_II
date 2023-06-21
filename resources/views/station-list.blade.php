@@ -45,7 +45,7 @@
                                     <span>{{ $station->data[count($station->data)-1]->rainfall }}mm</span>
                                 </div>
                             </div>
-                            <button onclick="location.href='/data/{{$station->name}}'">Details <i class="fa fa-arrow-circle-o-right"></i></button>
+                            <button onclick="location.href='/data/{{ $station->name }}'">Details <i class="fa fa-arrow-circle-o-right"></i></button>
                         </div>
                     @endforeach
                 </div>
