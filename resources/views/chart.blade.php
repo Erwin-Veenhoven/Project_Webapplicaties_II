@@ -12,12 +12,12 @@
 <section>
     <div class="container">
         <div class="card item1 stn-info">
-            <h1>Station 17</h1>
-            <small>lat: 9.287620</small>
-            <small>long: -79.916139</small>
+            <h1>{{$station->name}}</h1>
+            <small>lat: {{$station->latitude}}</small>
+            <small>long: {{$station->longitude}}</small>
             <div class="temp square">
                 <div class="temp-inner">
-                    <span>25°C</span>
+                    <span>{{ $station->data[count($station->data)-1]->temperature }}°C</span>
                     <small>most recent</small>
                 </div>
             </div>

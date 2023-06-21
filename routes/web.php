@@ -24,7 +24,7 @@ Route::get('/', function () {
 });
 
 Route::get('/weather', [StationListController::class, 'showPage']);
-Route::get('/data', [ChartController::class, 'showPage']);
+Route::get('/data/{name}', [ChartController::class, 'showPage']);
 
 Route::get('/download/xml', [DownloadController::class, 'downloadXml']);
 
